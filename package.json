@@ -1,0 +1,19 @@
+{
+  "name": "apply-ai",
+  "version": "0.0.1",
+  "description": "A demo of using playwright and some very minor AI data validation to fill out forms",
+  "main": "index.js",
+  "scripts": {
+    "groundhog": "node groundhog.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "vote": "node vote.js"
+  },
+  "keywords": [],
+  "author": "paul@pcraig.ca",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "openai": "^4.76.0",
+    "playwright": "^1.49.0"
+  }
+}
