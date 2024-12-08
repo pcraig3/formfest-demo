@@ -23,7 +23,7 @@ const getDataPrompt = (key) => {
   return "> ";
 };
 
-const typeEffect = async (text, minDelay = 2, maxDelay = 5) => {
+const typeEffect = async (text, minDelay = 15, maxDelay = 40) => {
   process.stdout.write("\n"); // Newline beforehand
   for (const char of text) {
     process.stdout.write(char);
