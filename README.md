@@ -1,9 +1,8 @@
 <div align="center">
   <h1>Apply.AI</h1>
-  <p><em>FormFest 2024 Demo Project</em></p>
+  <p>FormFest 2024 Demo Project</p>
+  <p><em>⚠️ This is a test project, it is not production ready. ⚠️</em></p>
 </div>
-
-⚠️ This is a test project, it is not production ready. ⚠️
 
 ## About
 
@@ -14,6 +13,18 @@ The demo is meant to serve as an _illustrative example_ of an intelligent assist
 I have left in my name in the data.json file but you can sub it out for your own and try it out. Note that it gets stopped in its tracks by captchas, so you have to click through that part manually.
 
 The demo uses [playwright](https://playwright.dev) to script form-filling and pings the [OpenAI API](https://platform.openai.com/docs/overview) for input validation.
+
+### gif
+
+This is an animated gif of the first few questions of the Formfest Apply.AI demo.
+
+<img alt="Logo" src="./formfest-demo.gif" width="650" alt="an animated gif of the first few questions of the Formfest Apply.AI demo" />
+
+### OpenAI API key
+
+To run this demo, you need to create `.env` at the root of the project with a valid OpenAI API key.
+
+See `.env.example` for a sample format.
 
 ## Contact
 
