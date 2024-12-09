@@ -236,7 +236,7 @@ const isStreetCorrect = async (streetName) => {
   });
 };
 
-// Function to prompt user for their full name
+// Function to prompt user for their street and apartment numbers
 const getStreetAndApartmentNumbers = async () => {
   await typeEffect("🤖: Your street (and unit number, if applicable)?");
 
